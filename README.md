@@ -14,7 +14,7 @@ What things you need to install the software and how to install them
 
 1. Frontend + Backend Application
 
-2. Install Cypress via npm: (*Skip this step for NumberGeneration project*)
+2. Install Cypress via npm: (***Skip this step for NumberGeneration project***)
 
 In this example, i will be installing cypress package in my frontend (Angular) project
 
