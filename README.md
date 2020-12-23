@@ -1,6 +1,6 @@
-# Cypress
+# Cypress with Angular
 
-A javascript library that provides UI End-to-End Testing
+A modern javascript library that provides UI End-to-End Testing https://www.cypress.io/
 
 ## Getting Started
 
@@ -12,8 +12,19 @@ What things you need to install the software and how to install them
 
 #### Windows Environment
 
-1. Install latest SonarQube Community Edition
-(https://www.sonarqube.org/success-download-community-edition/)
+1.Install Cypress via npm: (*Skip this step for NumberGeneration project*)
+
+```
+cd /project/ClientApp
+
+npm install cypress --save-dev
+
+```
+
+> Make sure you already have a package.json file in the above target path to include cypress dependencies.
+
+For more information, please refer to the official website https://docs.cypress.io/guides/getting-started/installing-cypress.html#npm-install
+
 
 2. Install latest .Net 5 SDK (Skip if already installed)
 
