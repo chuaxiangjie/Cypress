@@ -24,7 +24,9 @@ cd /frontend-project/ClientApp/e2e
 npm install cypress --save-dev
 
 ```
-    > Make sure you already have a package.json file in the above target path before installing cypress package
+
+| :memo:        | Make sure you already have a package.json file in the above target path before installing cypress package      |
+|---------------|:------------------------|
 
 For more information, please refer to the official website https://docs.cypress.io/guides/getting-started/installing-cypress.html#npm-install
 
@@ -66,49 +68,18 @@ dotnet run
 ```
 Ensure both applications are running and working
 
+In this example, the frontend application is running on http://localhost:5000
+
+Now, we have a running UI application and we must configure cypress to include "baseUrl": "http://localhost:5000" in cypress.json file.
+
+<img src="https://user-images.githubusercontent.com/5947398/102975731-7730b580-453b-11eb-9de3-2836c0eb99eb.png" width="600" />
+
+
+
+| :memo:        | Cypress only depends on the target UI url address     |
+|---------------|:------------------------|
 
 
 
 
 
-## Sonarqube project (Scan)
-
-#### Scan .Net project
-
-
-
-```diff
-#### Navigate to .Net project root directory
-
-
-dotnet sonarscanner begin /k:"NumberGenerator" /d:sonar.cs.nunit.reportsPaths=C:\Users\ran_d\source\repos\NumberGenerationNew\Tests\**\TestResults\TestResults.xml /d:sonar.cs.opencover.reportsPaths=C:\Users\ran_d\source\repos\NumberGenerationNew\Tests\**\Coverage\*.opencover.xml
-
-
-Parameters explain
-- /k:"NumberGenerator" - refer to sonarqube project name
-- /d:sonar.cs.nunit.reportsPaths - specify Nunit unit tests result
-- /d:sonar.cs.opencover.reportsPaths - specify Nunit unit tests coverage
-
-```
-
-```
-#### Build solution
-
-dotnet build NumberGenerator.sln
-
-```
-
-
-```
-#### Execute test to generate test results/coverage files
-
-dotnet test --logger "trx;LogFileName=TestResults.trx" ^            --logger "nunit;LogFileName=TestResults.xml" ^            --results-directory ./Coverage ^            /p:CollectCoverage=true ^            /p:CoverletOutput=Coverage\ ^            /p:CoverletOutputFormat=opencover ^            /p:Exclude="[nunit.*]*
-
-```
-
-```
-#### Sonarscan end
-
-dotnet sonarscanner end
-
-```
