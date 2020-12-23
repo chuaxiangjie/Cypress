@@ -76,10 +76,27 @@ Now, we have a running UI application and we must configure cypress to include "
 
 
 
-| :memo:        | Cypress only depends on the target UI url address     |
+| :memo:        | Cypress requires the target UI url address     |
 |---------------|:------------------------|
 
 
+#### Begin Cypress Test
 
+Navigate to frontend Angular application 
 
+```
+cd /frontend-project/ClientApp/e2e
+```
+
+Open cypress Test runner
+
+```
+npx cypress open
+```
+
+<img src="https://user-images.githubusercontent.com/5947398/102989348-71919a80-4550-11eb-8166-62d4eaa16657.png" width="600" />
+
+Click the Run 1 Integration Spec to begin
+
+<img src="https://user-images.githubusercontent.com/5947398/102989536-bae1ea00-4550-11eb-91a8-a56d31d21096.png" width="600" />
 
