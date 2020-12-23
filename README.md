@@ -100,3 +100,5 @@ Click the Run 1 Integration Spec to begin
 
 <img src="https://user-images.githubusercontent.com/5947398/102989536-bae1ea00-4550-11eb-91a8-a56d31d21096.png" width="600" />
 
+Cypress test runner will automatically execute each test case.
+
