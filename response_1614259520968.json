@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "message": "",
+  "errors": [],
+  "data": {
+    "numberMasterId": 1,
+    "numberLength": 10,
+    "subNumberLength": 3,
+    "latestNumber": "2021-00013",
+    "numberMasterUpdatedOn": "2021-02-25T17:03:47.3578641",
+    "isNumberGenerated": true,
+    "isSubNumberGenerated": true,
+    "numberFormats": [
+      {
+        "row": 1,
+        "dataType": "CY",
+        "positionFrom": 1,
+        "positionTo": 4,
+        "data": "2021",
+        "type": "Main"
+      },
+      {
+        "row": 2,
+        "dataType": "XX",
+        "positionFrom": 5,
+        "positionTo": 5,
+        "data": "-",
+        "type": "Main"
+      },
+      {
+        "row": 3,
+        "dataType": "SN",
+        "positionFrom": 6,
+        "positionTo": 10,
+        "sequenceStart": 1,
+        "sequenceEnd": 9999,
+        "isSequenceRefresh": true,
+        "data": "00013",
+        "type": "Main"
+      },
+      {
+        "row": 1,
+        "dataType": "SN",
+        "positionFrom": 1,
+        "positionTo": 3,
+        "sequenceStart": 1,
+        "sequenceEnd": 999,
+        "isSequenceRefresh": true,
+        "data": "001",
+        "type": "Sub"
+      }
+    ]
+  }
+}
