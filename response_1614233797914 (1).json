@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "message": "",
+  "errors": [],
+  "data": {
+    "id": 1,
+    "countryCode": "SG",
+    "branchCode": "BB",
+    "applicationId": "BB-1",
+    "processId": "Payment",
+    "numberDesc": "For payment",
+    "numberLength": 10,
+    "subNumberLength": 3,
+    "latestNumber": "2021-00013",
+    "isActive": true,
+    "isDeleted": false,
+    "domainId": "domain",
+    "userId": "userid",
+    "createdOnUtc": "2021-02-17T14:55:44.3466667",
+    "updatedOnUtc": "2021-02-22T09:00:41.2359073",
+    "additionalInfo": {
+      "hasSubNumberFormat": false,
+      "hasMissingPositionInMainFormat": false,
+      "hasMissingPositionInSubFormat": false,
+      "hasGeneratedNumber": true,
+      "hasGeneratedSubNumber": true
+    }
+  }
+}
