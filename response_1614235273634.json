@@ -1,0 +1,10 @@
+{
+  "success": false,
+  "message": "Validation errors",
+  "errors": [
+    "Number length must be > 0 and <= 40",
+    "'Application Id' must be between 0 and 5 characters. You entered 6 characters.",
+    "'Branch Code' must be between 0 and 3 characters. You entered 6 characters.",
+    "'Country Code' must be between 0 and 2 characters. You entered 6 characters."
+  ]
+}
