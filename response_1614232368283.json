@@ -1,0 +1,161 @@
+{
+  "success": true,
+  "message": "",
+  "errors": [],
+  "data": {
+    "numberMasters": [
+      {
+        "id": 1,
+        "countryCode": "SG",
+        "branchCode": "BB",
+        "applicationId": "BB-1",
+        "processId": "Payment",
+        "numberDesc": "For payment",
+        "numberLength": 10,
+        "subNumberLength": 3,
+        "latestNumber": "2021-00013",
+        "isActive": true,
+        "isDeleted": false,
+        "domainId": "domain",
+        "userId": "userid",
+        "createdOnUtc": "2021-02-17T14:55:44.3466667",
+        "updatedOnUtc": "2021-02-22T09:00:41.2359073",
+        "additionalInfo": {
+          "hasMainNumberFormat": true,
+          "hasSubNumberFormat": true,
+          "hasMissingPositionInMainFormat": false,
+          "hasMissingPositionInSubFormat": false,
+          "generatedNumberType": "Sequential"
+        }
+      },
+      {
+        "id": 2,
+        "countryCode": "SG",
+        "branchCode": "BB",
+        "applicationId": "BB-2",
+        "processId": "Loan",
+        "numberDesc": "For loan",
+        "numberLength": 10,
+        "subNumberLength": 0,
+        "latestNumber": "2105200006",
+        "isActive": true,
+        "isDeleted": false,
+        "domainId": "domain",
+        "userId": "userid",
+        "createdOnUtc": "2021-02-17T14:55:44.3466667",
+        "updatedOnUtc": "2021-02-21T20:48:58.5161662",
+        "additionalInfo": {
+          "hasMainNumberFormat": true,
+          "hasSubNumberFormat": false,
+          "hasMissingPositionInMainFormat": false,
+          "hasMissingPositionInSubFormat": false,
+          "generatedNumberType": "Sequential"
+        }
+      },
+      {
+        "id": 3,
+        "countryCode": "SG",
+        "branchCode": "BB",
+        "applicationId": "BB-3",
+        "processId": "Invest",
+        "numberDesc": "For invest",
+        "numberLength": 10,
+        "subNumberLength": 0,
+        "latestNumber": "",
+        "isActive": true,
+        "isDeleted": false,
+        "domainId": "domain",
+        "userId": "userid",
+        "createdOnUtc": "2021-02-17T14:55:44.35",
+        "updatedOnUtc": "2021-02-22T10:47:51.9869191",
+        "additionalInfo": {
+          "hasMainNumberFormat": true,
+          "hasSubNumberFormat": false,
+          "hasMissingPositionInMainFormat": false,
+          "hasMissingPositionInSubFormat": false,
+          "generatedNumberType": "Default"
+        }
+      },
+      {
+        "id": 6,
+        "countryCode": "SG",
+        "branchCode": "BB",
+        "applicationId": "24",
+        "processId": "1212121",
+        "numberDesc": "23423",
+        "numberLength": 11,
+        "subNumberLength": 1,
+        "latestNumber": "20212021002",
+        "isActive": true,
+        "isDeleted": false,
+        "domainId": "",
+        "userId": "fake name",
+        "createdOnUtc": "2021-02-21T11:03:35.4572436",
+        "updatedOnUtc": "2021-02-22T10:12:32.1862556",
+        "additionalInfo": {
+          "hasMainNumberFormat": true,
+          "hasSubNumberFormat": true,
+          "hasMissingPositionInMainFormat": false,
+          "hasMissingPositionInSubFormat": false,
+          "generatedNumberType": "Sequential"
+        }
+      },
+      {
+        "id": 7,
+        "countryCode": "SG",
+        "branchCode": "BB",
+        "applicationId": "1",
+        "processId": "1",
+        "numberDesc": "1",
+        "numberLength": 11,
+        "subNumberLength": 12,
+        "latestNumber": "",
+        "isActive": true,
+        "isDeleted": false,
+        "domainId": "",
+        "userId": "fake name",
+        "createdOnUtc": "2021-02-22T02:12:48.0648433",
+        "updatedOnUtc": "2021-02-22T21:16:17.483773",
+        "additionalInfo": {
+          "hasMainNumberFormat": true,
+          "hasSubNumberFormat": false,
+          "hasMissingPositionInMainFormat": false,
+          "hasMissingPositionInSubFormat": false,
+          "generatedNumberType": "Default"
+        }
+      },
+      {
+        "id": 8,
+        "countryCode": "SG",
+        "branchCode": "BB",
+        "applicationId": "12",
+        "processId": "212",
+        "numberDesc": "2212",
+        "numberLength": 12,
+        "subNumberLength": 11,
+        "latestNumber": "",
+        "isActive": true,
+        "isDeleted": false,
+        "domainId": "",
+        "userId": "fake name",
+        "createdOnUtc": "2021-02-22T02:21:24.0864185",
+        "updatedOnUtc": "2021-02-22T02:21:24.0864197",
+        "additionalInfo": {
+          "hasMainNumberFormat": false,
+          "hasSubNumberFormat": false,
+          "hasMissingPositionInMainFormat": false,
+          "hasMissingPositionInSubFormat": false,
+          "generatedNumberType": "Default"
+        }
+      }
+    ],
+    "pagination": {
+      "pageNumber": 1,
+      "pageSize": 10,
+      "totalItems": 6,
+      "totalPages": 1,
+      "hasPreviousPage": false,
+      "hasNextPage": false
+    }
+  }
+}
